@@ -1,3 +1,5 @@
+# Answer
+
 # N,M을 공백을 구분하여 입력받기 
 n,m = map(int,input().split())
 
