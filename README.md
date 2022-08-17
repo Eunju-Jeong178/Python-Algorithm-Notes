@@ -3,3 +3,6 @@
 
 ### DFS/BFS 참고 사이트
 https://realpython.com/linked-lists-python/: Linked list, List, Stack, Queue, Graph
+
+### 참고) Python tutor
+https://pythontutor.com/visualize.html#mode=edit: 코드 시각화
