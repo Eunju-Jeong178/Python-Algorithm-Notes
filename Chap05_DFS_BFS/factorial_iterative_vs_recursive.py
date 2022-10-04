@@ -1,4 +1,4 @@
-# version 1) 반복적으로 구현한 n!
+# version 1) 반복적으로 구현한 n! (iterative)
 def factorial_iterative(n):
   result = 1
   
@@ -8,7 +8,7 @@ def factorial_iterative(n):
     
   return result
 
-# version 2) 재귀적으로 구현한 n!
+# version 2) 재귀적으로 구현한 n! (recursive)
 # 반복적으로 구현하는 것보다 더 간단하다. 
 # 수학의 점화식을 그대로 표현
 def factorial_recursive(n):
