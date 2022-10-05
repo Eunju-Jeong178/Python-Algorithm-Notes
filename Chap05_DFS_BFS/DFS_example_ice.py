@@ -16,9 +16,9 @@ def dfs(x,y):
     # 해당 노드 방문처리
     graph[x][y] = 1 # <-- DFS에 있어야 되는 것
     # 상, 하, 좌, 우의 위치도 모두 재귀적으로 호출
-    dfs(x-1,y) # 인접한 하 노드 <-- DFS에 있어야 되는 것 (인접 노드)
+    dfs(x-1,y) # 인접한 상 노드 <-- DFS에 있어야 되는 것 (인접 노드)
     dfs(x,y-1) # 인접한 좌 노드 
-    dfs(x+1,y) # 인접한 상 노드
+    dfs(x+1,y) # 인접한 하 노드
     dfs(x,y+1) # 인접한 우 노드
     return True
   return False
