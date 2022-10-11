@@ -9,7 +9,8 @@ for i in range(len(array)): # N번 수행 (index 0부터 N-1까지)
   
   # i번째 인덱스와 하나하나 비교하여 가장 작은 수의 인덱스 찾기
   for j in range(i+1, len(array)): # (index i+1부터 N-1까지)
-    if array[min_index] > array[j]:
+    if array[min_index] > array[j]: # 오름차순 정렬
+    # if array[min_index] < array[j]: # 이렇게하면 내림차순 정렬
       min_index = j
   array[i],array[min_index] = array[min_index],array[i] # swap 파이썬은 이게 가능
 
